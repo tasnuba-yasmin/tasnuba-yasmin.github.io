@@ -189,7 +189,7 @@ h3 { font-size: 16.5px; margin: 0; font-weight: 600; }
 .skills dt { font-weight: 600; }
 .skills dd { margin: 0; }
 
-.gallery { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin-bottom: 8px; }
+.gallery { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-bottom: 8px; max-width: 360px; }
 .gallery a { display: block; }
 .gallery img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 4; object-fit: cover; border-radius: 6px; border: 1px solid var(--border); }
 
