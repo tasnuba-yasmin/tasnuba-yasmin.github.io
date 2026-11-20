@@ -1,0 +1,8 @@
+name = "tasnuba-visitors"
+main = "src/index.js"
+compatibility_date = "2026-11-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "tasnuba-visitors"
+database_id = "15216531-445d-4993-98b7-4be1133d5da0"

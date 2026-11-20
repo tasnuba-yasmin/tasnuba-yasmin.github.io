@@ -19,7 +19,7 @@
   <meta name="twitter:title" content="Tasnuba Yasmin · Biomedical Engineer & Prospective MSc/PhD Student">
   <meta name="twitter:description" content="Biomaterials, tissue engineering and molecular biology: antibacterial hydrogels for wound care.">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='12' fill='%23b03a6a'/><text x='32' y='42' font-family='Georgia,serif' font-size='30' fill='white' text-anchor='middle'>TY</text></svg>">
-  <link rel="stylesheet" href="style.css?v=5">
+  <link rel="stylesheet" href="style.css?v=6">
   <script>
     // Apply the visitor's saved theme before first paint; dark is the default.
     try {
@@ -379,6 +379,22 @@
         <p class="muted">Hands-on laboratory animal handling.</p>
       </section>
 
+      <section id="visitors" data-api="https://tasnuba-visitors.tasnuba-visitor-worker.workers.dev">
+        <h2>Visitors</h2>
+        <div class="visit-scroll">
+          <div class="visit-map">
+            <div class="visit-months" aria-hidden="true"></div>
+            <div class="visit-days" aria-hidden="true"><span></span><span>Mon</span><span></span><span>Wed</span><span></span><span>Fri</span><span></span></div>
+            <div class="visit-grid" role="img" aria-label="Daily visitors over the last year"></div>
+          </div>
+        </div>
+        <div class="visit-foot">
+          <p class="visit-summary muted">Loading visitor statistics…</p>
+          <p class="visit-legend muted" aria-hidden="true">Less <span class="visit-cell" data-level="0"></span><span class="visit-cell" data-level="1"></span><span class="visit-cell" data-level="2"></span><span class="visit-cell" data-level="3"></span><span class="visit-cell" data-level="4"></span> More</p>
+        </div>
+        <div class="visit-tip" role="status" hidden></div>
+      </section>
+
       <footer>
         <p>Last updated: November 2026</p>
       </footer>
@@ -448,5 +464,6 @@
       });
     })();
   </script>
+  <script src="visitors.js?v=1" defer></script>
 </body>
 </html>
